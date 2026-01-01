@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚆 Train Ticket Booking System</h1>
+    <p>Book Upper / Lower Berth Easily</p>
+</header>
+
+<section class="booking">
+    <h2>Book Your Train Ticket</h2>
+
+    <form id="ticketForm">
+        <label>Passenger Name:</label>
+        <input type="text" required>
+
+        <label>Age:</label>
+        <input type="number" id="age" required>
+
+        <label>Berth Preference:</label>
+        <select id="berth">
+            <option value="Lower">Lower Berth</option>
+            <option value="Upper">Upper Berth</option>
+        </select>
+
+        <label>
+            <input type="checkbox" id="senior">
+            Senior Citizen (60+)
+        </label>
+
+        <button type="submit">Book Ticket</button>
+    </form>
+
+    <p id="result"></p>
+</section>
+
+<section class="info">
+    <h2>Upper & Lower Berth Information</h2>
+
+    <div class="berth">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Indian_Railways_Sleeper_Class.jpg" alt="Lower Berth">
+        <p><b>Lower Berth:</b> Easy access, recommended for elderly passengers.</p>
+    </div>
+
+    <div class="berth">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Upper_berth_indian_train.jpg" alt="Upper Berth">
+        <p><b>Upper Berth:</b> More privacy, preferred by young passengers.</p>
+    </div>
+</section>
+
+<section class="youtube">
+    <h2>📺 How to Book Train Ticket (YouTube)</h2>
+    <a href="https://www.youtube.com/watch?v=9pQ7F0q5Wk8" target="_blank">
+        ▶ Watch Hindi Tutorial
+    </a><br><br>
+    <a href="https://www.youtube.com/watch?v=Z7YqZ9p6FZ8" target="_blank">
+        ▶ Watch English Tutorial
+    </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
